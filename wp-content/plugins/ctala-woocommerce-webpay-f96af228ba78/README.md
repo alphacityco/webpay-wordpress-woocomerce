@@ -109,6 +109,8 @@ HTML_TR_NORMAL =  http://DIRECCIONDETUPAGINA/?wc-api=WC_Gateway_Webpayplus&xt_co
 
 ```
 #CHANGELOG
+* V3.5.4.1 : Se cambia la palabra Fracasada por Rechazada en la página de fracaso.
+* V3.5.4.0 : Se cambia el formato de versiones. Se arregla pantalla blanca al actualizar woocommerce.
 * V3.0.5 : Se arregla problema con los permalinks.
 * V3.0.4 : Se agrega la palabra débito al mensaje de error. Se agrega el nombre del cliente a la tabla de información extra de la transacción.
 * V3.0.3 : Se elimina mensaje de contacto al banco en caso de error, Se elimina la información extra en caso de failure.

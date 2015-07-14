@@ -6,7 +6,7 @@
  */
 ?>
 
-<h2>Transacción Fracasada</h2>
+<h2>Transacción Rechazada</h2>
 <p>"Su transacción no ha podido ser procesada, por favor vuelva a intentarlo." </p>
 
 
