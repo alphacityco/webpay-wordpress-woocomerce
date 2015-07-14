@@ -5,7 +5,7 @@ PARAMVERIFCOM = 1
 URLCGICOM = http://45.55.88.47/cgi-bin/tbk_bp_resultado.cgi
 SERVERCOM = 45.55.88.47
 PORTCOM = 80
-WHITELISTCOM = ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789./:=&?_
+WHITELISTCOM = ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0123456789./:=&?_-
 HOST = 45.55.88.47
 WPORT = 80
 URLCGITRA = /filtroUnificado/bp_revision.cgi

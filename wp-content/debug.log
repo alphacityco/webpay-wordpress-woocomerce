@@ -1,0 +1,381 @@
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 11
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150714053539.log para guardar los datos
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;11 en /var/www/html/wp-content/uploads/webpay-comun/dato20150714053539.log
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[14-Jul-2015 17:35:39 UTC] [WEBPAY - FORM]	-> Argumentos
+[14-Jul-2015 17:35:39 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 11
+    [TBK_ID_SESION] => 20150714053539
+    [TBK_URL_EXITO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=success&order=11&key=wc_order_55a54750e1944
+    [TBK_URL_FRACASO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=failure&order=11&key=wc_order_55a54750e1944
+)
+
+[14-Jul-2015 17:36:17 UTC] [API]	-> ENTRANDO HANDLER
+[14-Jul-2015 17:36:17 UTC] [API]	-> ENTRANDO RESPONSE
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[14-Jul-2015 17:36:17 UTC] Array
+(
+    [TBK_ID_SESION] => 20150714053539
+    [TBK_ORDEN_COMPRA] => 11
+)
+
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> STATUS failure
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714053539.txt
+[14-Jul-2015 17:36:17 UTC] PHP Warning:  fopen(/var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714053539.txt): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 549
+[14-Jul-2015 17:36:17 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 550
+[14-Jul-2015 17:36:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 551
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 1 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 556
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 2 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 557
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 3 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 558
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 4 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 559
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 5 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 560
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 6 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 561
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 7 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 562
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 8 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 563
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 10 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 564
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 11 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 565
+[14-Jul-2015 17:36:17 UTC] PHP Notice:  Undefined offset: 12 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 566
+[14-Jul-2015 17:36:17 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => 
+        )
+
+)
+
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> FALLO EN EL PAGO DE LA ORDEN
+[14-Jul-2015 17:36:17 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[14-Jul-2015 17:36:18 UTC] 	-> Entrando al ThankYouPage
+[14-Jul-2015 17:36:18 UTC] 	-> STATUS VALIDO -> failure
+[14-Jul-2015 17:36:18 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 11 y 
+[14-Jul-2015 17:36:18 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[14-Jul-2015 17:36:18 UTC] 	-> Saliendo al ThankYouPage
+[14-Jul-2015 17:40:56 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 11
+[14-Jul-2015 17:40:57 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/
+[14-Jul-2015 17:40:57 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150714054057.log para guardar los datos
+[14-Jul-2015 17:40:57 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;11 en /var/www/html/wp-content/uploads/webpay-comun/dato20150714054057.log
+[14-Jul-2015 17:40:57 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[14-Jul-2015 17:40:57 UTC] [WEBPAY - FORM]	-> Argumentos
+[14-Jul-2015 17:40:57 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 11
+    [TBK_ID_SESION] => 20150714054057
+    [TBK_URL_EXITO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=success&order=11&key=wc_order_55a54750e1944
+    [TBK_URL_FRACASO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=failure&order=11&key=wc_order_55a54750e1944
+)
+
+[14-Jul-2015 17:41:31 UTC] [API]	-> ENTRANDO HANDLER
+[14-Jul-2015 17:41:31 UTC] [API]	-> ENTRANDO RESPONSE
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[14-Jul-2015 17:41:31 UTC] Array
+(
+    [TBK_ID_SESION] => 20150714054057
+    [TBK_ORDEN_COMPRA] => 11
+)
+
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> STATUS failure
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714054057.txt
+[14-Jul-2015 17:41:31 UTC] PHP Warning:  fopen(/var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714054057.txt): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 549
+[14-Jul-2015 17:41:31 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 550
+[14-Jul-2015 17:41:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 551
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 1 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 556
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 2 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 557
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 3 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 558
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 4 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 559
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 5 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 560
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 6 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 561
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 7 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 562
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 8 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 563
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 10 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 564
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 11 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 565
+[14-Jul-2015 17:41:31 UTC] PHP Notice:  Undefined offset: 12 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 566
+[14-Jul-2015 17:41:31 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => 
+        )
+
+)
+
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> FALLO EN EL PAGO DE LA ORDEN
+[14-Jul-2015 17:41:31 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[14-Jul-2015 17:41:31 UTC] 	-> Entrando al ThankYouPage
+[14-Jul-2015 17:41:31 UTC] 	-> STATUS VALIDO -> failure
+[14-Jul-2015 17:41:31 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 11 y 
+[14-Jul-2015 17:41:31 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[14-Jul-2015 17:41:31 UTC] 	-> Saliendo al ThankYouPage
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 11
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150714054554.log para guardar los datos
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;11 en /var/www/html/wp-content/uploads/webpay-comun/dato20150714054554.log
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[14-Jul-2015 17:45:54 UTC] [WEBPAY - FORM]	-> Argumentos
+[14-Jul-2015 17:45:54 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 11
+    [TBK_ID_SESION] => 20150714054554
+    [TBK_URL_EXITO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=success&order=11&key=wc_order_55a54750e1944
+    [TBK_URL_FRACASO] => http://45.55.88.47/index.php/wc-api/WC_Gateway_Webpayplus/?status=failure&order=11&key=wc_order_55a54750e1944
+)
+
+[14-Jul-2015 17:46:28 UTC] [API]	-> ENTRANDO HANDLER
+[14-Jul-2015 17:46:28 UTC] [API]	-> ENTRANDO RESPONSE
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[14-Jul-2015 17:46:28 UTC] Array
+(
+    [TBK_ID_SESION] => 20150714054554
+    [TBK_ORDEN_COMPRA] => 11
+)
+
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> STATUS failure
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714054554.txt
+[14-Jul-2015 17:46:28 UTC] PHP Warning:  fopen(/var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150714054554.txt): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 549
+[14-Jul-2015 17:46:28 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 550
+[14-Jul-2015 17:46:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 551
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 1 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 556
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 2 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 557
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 3 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 558
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 4 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 559
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 5 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 560
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 6 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 561
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 7 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 562
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 8 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 563
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 10 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 564
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 11 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 565
+[14-Jul-2015 17:46:28 UTC] PHP Notice:  Undefined offset: 12 in /var/www/html/wp-content/plugins/webpay-woocommerce-plugin/WebPayPlus.php on line 566
+[14-Jul-2015 17:46:28 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => 
+        )
+
+)
+
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> FALLO EN EL PAGO DE LA ORDEN
+[14-Jul-2015 17:46:28 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[14-Jul-2015 17:46:28 UTC] 	-> Entrando al ThankYouPage
+[14-Jul-2015 17:46:28 UTC] 	-> STATUS VALIDO -> failure
+[14-Jul-2015 17:46:28 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 11 y 
+[14-Jul-2015 17:46:28 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[14-Jul-2015 17:46:28 UTC] 	-> Saliendo al ThankYouPage
