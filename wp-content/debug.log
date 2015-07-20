@@ -2022,3 +2022,662 @@
 )
 
 [14-Jul-2015 21:27:40 UTC] 	-> Saliendo al ThankYouPage
+[15-Jul-2015 14:38:17 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 18
+[15-Jul-2015 14:38:18 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/
+[15-Jul-2015 14:38:18 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150715023818.log para guardar los datos
+[15-Jul-2015 14:38:18 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;18 en /var/www/html/wp-content/uploads/webpay-comun/dato20150715023818.log
+[15-Jul-2015 14:38:18 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[15-Jul-2015 14:38:18 UTC] [WEBPAY - FORM]	-> Argumentos
+[15-Jul-2015 14:38:18 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 18
+    [TBK_ID_SESION] => 20150715023818
+    [TBK_URL_EXITO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=success&order=18&key=wc_order_55a6705950bbc
+    [TBK_URL_FRACASO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=failure&order=18&key=wc_order_55a6705950bbc
+)
+
+[15-Jul-2015 14:38:44 UTC] [API]	-> ENTRANDO HANDLER
+[15-Jul-2015 14:38:44 UTC] [API]	-> ENTRANDO XT_COMPRA
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> Iniciando xt_compra
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> pending
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> ORDEN EXISTENTE 18
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> ORDEN DE COMPRA NO PAGADA (pending). Se procede con el pago de la orden 18
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> INICIANDO GUARDADO EN ARCHIVO
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> ARCHIVO CERRADO
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> VERIFICANDO QUE LA ORDEN NO ESTÉ REPETIDA
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> INICIANDO VALIDACION MAC
+[15-Jul-2015 14:38:44 UTC] [XT_COMPRA]	-> FIN VALIDACION MAC
+[15-Jul-2015 14:38:50 UTC] [API]	-> ENTRANDO HANDLER
+[15-Jul-2015 14:38:50 UTC] [API]	-> ENTRANDO RESPONSE
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[15-Jul-2015 14:38:50 UTC] Array
+(
+    [TBK_ID_SESION] => 20150715023818
+    [TBK_ORDEN_COMPRA] => 18
+)
+
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> STATUS success
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150715023818.txt
+[15-Jul-2015 14:38:50 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => TBK_ORDEN_COMPRA
+            [1] => 18
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => TBK_TIPO_TRANSACCION
+            [1] => TR_NORMAL
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => TBK_RESPUESTA
+            [1] => 0
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => TBK_MONTO
+            [1] => 1000
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => TBK_CODIGO_AUTORIZACION
+            [1] => 104139
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => TBK_FINAL_NUMERO_TARJETA
+            [1] => 6623
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => TBK_FECHA_CONTABLE
+            [1] => 0715
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => TBK_FECHA_TRANSACCION
+            [1] => 0715
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => TBK_HORA_TRANSACCION
+            [1] => 103820
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => TBK_ID_TRANSACCION
+            [1] => 697109839
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => TBK_TIPO_PAGO
+            [1] => VN
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => TBK_NUMERO_CUOTAS
+            [1] => 0
+        )
+
+)
+
+[15-Jul-2015 14:38:50 UTC] WPP_MAIL	-> Agregando Información extra de la Orden al Email webpayplus
+[15-Jul-2015 14:38:50 UTC] WPP_MAIL	-> Agregando Información extra de la Orden al Email webpayplus
+[15-Jul-2015 14:38:50 UTC] 	-> INSERTANDO EN LA BDD
+[15-Jul-2015 14:38:50 UTC] [RESBDD]	-> SELECT count(*) FROM wp_webpay where idOrder = 18
+[15-Jul-2015 14:38:50 UTC] [RESBDD]	-> 0
+[15-Jul-2015 14:38:50 UTC] 	-> idOrden : 
+[15-Jul-2015 14:38:50 UTC] 	-> 18
+[15-Jul-2015 14:38:50 UTC] 	-> TBK:
+[15-Jul-2015 14:38:50 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => TBK_ORDEN_COMPRA
+            [1] => 18
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => TBK_TIPO_TRANSACCION
+            [1] => TR_NORMAL
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => TBK_RESPUESTA
+            [1] => 0
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => TBK_MONTO
+            [1] => 1000
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => TBK_CODIGO_AUTORIZACION
+            [1] => 104139
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => TBK_FINAL_NUMERO_TARJETA
+            [1] => 6623
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => TBK_FECHA_CONTABLE
+            [1] => 0715
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => TBK_FECHA_TRANSACCION
+            [1] => 0715
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => TBK_HORA_TRANSACCION
+            [1] => 103820
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => TBK_ID_TRANSACCION
+            [1] => 697109839
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => TBK_TIPO_PAGO
+            [1] => VN
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => TBK_NUMERO_CUOTAS
+            [1] => 0
+        )
+
+)
+
+[15-Jul-2015 14:38:50 UTC] 	-> TERMINANDO INSERSIÓN
+[15-Jul-2015 14:38:50 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[15-Jul-2015 14:38:51 UTC] 	-> Entrando al ThankYouPage
+[15-Jul-2015 14:38:51 UTC] 	-> STATUS VALIDO -> success
+[15-Jul-2015 14:38:51 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 18 y 
+[15-Jul-2015 14:38:51 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 14:38:51 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 14:38:51 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 14:38:51 UTC] 	-> Saliendo al ThankYouPage
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 19
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150715062233.log para guardar los datos
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;19 en /var/www/html/wp-content/uploads/webpay-comun/dato20150715062233.log
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[15-Jul-2015 18:22:33 UTC] [WEBPAY - FORM]	-> Argumentos
+[15-Jul-2015 18:22:33 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 19
+    [TBK_ID_SESION] => 20150715062233
+    [TBK_URL_EXITO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=success&order=19&key=wc_order_55a6a4e905081
+    [TBK_URL_FRACASO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=failure&order=19&key=wc_order_55a6a4e905081
+)
+
+[15-Jul-2015 18:23:00 UTC] [API]	-> ENTRANDO HANDLER
+[15-Jul-2015 18:23:00 UTC] [API]	-> ENTRANDO XT_COMPRA
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> Iniciando xt_compra
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> pending
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> ORDEN EXISTENTE 19
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> ORDEN DE COMPRA NO PAGADA (pending). Se procede con el pago de la orden 19
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> INICIANDO GUARDADO EN ARCHIVO
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> ARCHIVO CERRADO
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> VERIFICANDO QUE LA ORDEN NO ESTÉ REPETIDA
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> INICIANDO VALIDACION MAC
+[15-Jul-2015 18:23:00 UTC] [XT_COMPRA]	-> FIN VALIDACION MAC
+[15-Jul-2015 18:23:03 UTC] [API]	-> ENTRANDO HANDLER
+[15-Jul-2015 18:23:03 UTC] [API]	-> ENTRANDO RESPONSE
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [TBK_ID_SESION] => 20150715062233
+    [TBK_ORDEN_COMPRA] => 19
+)
+
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> STATUS success
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150715062233.txt
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => TBK_ORDEN_COMPRA
+            [1] => 19
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => TBK_TIPO_TRANSACCION
+            [1] => TR_NORMAL
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => TBK_RESPUESTA
+            [1] => 0
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => TBK_MONTO
+            [1] => 1000
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => TBK_CODIGO_AUTORIZACION
+            [1] => 119385
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => TBK_FINAL_NUMERO_TARJETA
+            [1] => 6623
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => TBK_FECHA_CONTABLE
+            [1] => 0715
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => TBK_FECHA_TRANSACCION
+            [1] => 0715
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => TBK_HORA_TRANSACCION
+            [1] => 142235
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => TBK_ID_TRANSACCION
+            [1] => 698455388
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => TBK_TIPO_PAGO
+            [1] => VN
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => TBK_NUMERO_CUOTAS
+            [1] => 0
+        )
+
+)
+
+[15-Jul-2015 18:23:03 UTC] WPP_MAIL	-> Agregando Información extra de la Orden al Email webpayplus
+[15-Jul-2015 18:23:03 UTC] WPP_MAIL	-> Agregando Información extra de la Orden al Email webpayplus
+[15-Jul-2015 18:23:03 UTC] 	-> INSERTANDO EN LA BDD
+[15-Jul-2015 18:23:03 UTC] [RESBDD]	-> SELECT count(*) FROM wp_webpay where idOrder = 19
+[15-Jul-2015 18:23:03 UTC] [RESBDD]	-> 0
+[15-Jul-2015 18:23:03 UTC] 	-> idOrden : 
+[15-Jul-2015 18:23:03 UTC] 	-> 19
+[15-Jul-2015 18:23:03 UTC] 	-> TBK:
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => TBK_ORDEN_COMPRA
+            [1] => 19
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => TBK_TIPO_TRANSACCION
+            [1] => TR_NORMAL
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => TBK_RESPUESTA
+            [1] => 0
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => TBK_MONTO
+            [1] => 1000
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => TBK_CODIGO_AUTORIZACION
+            [1] => 119385
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => TBK_FINAL_NUMERO_TARJETA
+            [1] => 6623
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => TBK_FECHA_CONTABLE
+            [1] => 0715
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => TBK_FECHA_TRANSACCION
+            [1] => 0715
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => TBK_HORA_TRANSACCION
+            [1] => 142235
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => TBK_ID_TRANSACCION
+            [1] => 698455388
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => TBK_TIPO_PAGO
+            [1] => VN
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => TBK_NUMERO_CUOTAS
+            [1] => 0
+        )
+
+)
+
+[15-Jul-2015 18:23:03 UTC] 	-> TERMINANDO INSERSIÓN
+[15-Jul-2015 18:23:03 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[15-Jul-2015 18:23:03 UTC] 	-> Entrando al ThankYouPage
+[15-Jul-2015 18:23:03 UTC] 	-> STATUS VALIDO -> success
+[15-Jul-2015 18:23:03 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 19 y 
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 18:23:03 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[15-Jul-2015 18:23:03 UTC] 	-> Saliendo al ThankYouPage
+[16-Jul-2015 08:37:09 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 11:08:07 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:40 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:43 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[16-Jul-2015 13:07:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:41 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:42 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:44 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:45 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:46 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[17-Jul-2015 19:33:47 UTC] PHP Notice:  Undefined index: HTTP_HOST in /var/www/html/wp-includes/canonical.php on line 63
+[20-Jul-2015 12:26:53 UTC] [WEBPAY - PROCESS - PAYMENT]	-> Iniciando el proceso de pago para 20
+[20-Jul-2015 12:26:54 UTC] [WEBPAY - FORM]	-> REDIRECT_URL http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/
+[20-Jul-2015 12:26:54 UTC] [WEBPAY - FORM]	-> Se utilizará /var/www/html/wp-content/uploads/webpay-comun/dato20150720122654.log para guardar los datos
+[20-Jul-2015 12:26:54 UTC] [WEBPAY - FORM]	-> Preparando para escribir 1000;20 en /var/www/html/wp-content/uploads/webpay-comun/dato20150720122654.log
+[20-Jul-2015 12:26:54 UTC] [WEBPAY - FORM]	-> ARCHIVO CERRADO
+[20-Jul-2015 12:26:54 UTC] [WEBPAY - FORM]	-> Argumentos
+[20-Jul-2015 12:26:54 UTC] Array
+(
+    [TBK_TIPO_TRANSACCION] => TR_NORMAL
+    [TBK_MONTO] => 1000
+    [TBK_ORDEN_COMPRA] => 20
+    [TBK_ID_SESION] => 20150720122654
+    [TBK_URL_EXITO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=success&order=20&key=wc_order_55ace90dd71f0
+    [TBK_URL_FRACASO] => http://45.55.88.47/wc-api/WC_Gateway_Webpayplus/?status=failure&order=20&key=wc_order_55ace90dd71f0
+)
+
+[20-Jul-2015 12:27:24 UTC] [API]	-> ENTRANDO HANDLER
+[20-Jul-2015 12:27:24 UTC] [API]	-> ENTRANDO XT_COMPRA
+[20-Jul-2015 12:27:24 UTC] [XT_COMPRA]	-> Iniciando xt_compra
+[20-Jul-2015 12:27:28 UTC] [API]	-> ENTRANDO HANDLER
+[20-Jul-2015 12:27:28 UTC] [API]	-> ENTRANDO RESPONSE
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> Entrando al Webpay Response
+[20-Jul-2015 12:27:28 UTC] Array
+(
+    [TBK_ID_SESION] => 20150720122654
+    [TBK_ORDEN_COMPRA] => 20
+)
+
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> VARIABLES EXISTENTES
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> ORDEN RESCATADA
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> STATUS failure
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> INICIANDO LA REVISION MAC PARA /var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150720122654.txt
+[20-Jul-2015 12:27:28 UTC] PHP Warning:  fopen(/var/www/html/wp-content/uploads/webpay-comun/MAC01Normal20150720122654.txt): failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 549
+[20-Jul-2015 12:27:28 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 550
+[20-Jul-2015 12:27:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 551
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 1 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 556
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 2 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 557
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 3 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 558
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 4 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 559
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 5 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 560
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 6 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 561
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 7 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 562
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 8 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 563
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 10 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 564
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 11 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 565
+[20-Jul-2015 12:27:28 UTC] PHP Notice:  Undefined offset: 12 in /var/www/html/wp-content/plugins/ctala-woocommerce-webpay-f96af228ba78/WebPayPlus.php on line 566
+[20-Jul-2015 12:27:28 UTC] Array
+(
+    [TBK_ORDEN_COMPRA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_RESPUESTA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_MONTO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_CODIGO_AUTORIZACION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FINAL_NUMERO_TARJETA] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_CONTABLE] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_FECHA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_HORA_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_ID_TRANSACCION] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_TIPO_PAGO] => Array
+        (
+            [0] => 
+        )
+
+    [TBK_NUMERO_CUOTAS] => Array
+        (
+            [0] => 
+        )
+
+)
+
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> FALLO EN EL PAGO DE LA ORDEN
+[20-Jul-2015 12:27:28 UTC] [WEBPAY - RESPONSE]	-> SALIENDO DEL RESPONSE
+[20-Jul-2015 12:27:28 UTC] 	-> Entrando al ThankYouPage
+[20-Jul-2015 12:27:28 UTC] 	-> STATUS VALIDO -> failure
+[20-Jul-2015 12:27:28 UTC] [ORDER_RECEIVED]	-> Ingresando a la recepción de la orden con 20 y 
+[20-Jul-2015 12:27:28 UTC] Array
+(
+    [enabled] => yes
+    [title] => Web Pay Plus
+    [description] => Sistema de pago con tarjetas de crédito y debito chilenas.
+    [politicas-devoluciones] => No se realizan devoluciones, ni reembolsos. En caso de tener alguna duda favor de contactar a (persona XXXX) o (Departamento XXXX) al teléfono (XXXX) o al mail (XXXX@XXXX.cl)".
+    [account_details] => 
+    [cgiurl] => http://45.55.88.47/cgi-bin/tbk_bp_pago.cgi
+    [macpath] => /var/www/html/cgi-bin
+    [redirect_page_id] => 8
+    [trade_name] => Prueba Webpay
+    [url_commerce] => http://45.55.88.47/
+)
+
+[20-Jul-2015 12:27:28 UTC] 	-> Saliendo al ThankYouPage
