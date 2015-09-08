@@ -5,7 +5,7 @@
   * Permisos del directoio wp-content/uploads/webpay-comun/ (777)
   * Sólo funciona con EXEC
   
-# código php para saber si EXEC() está habilitado y obtener el fullpath donde se ejecutan los 
+# Código php para saber si EXEC() está habilitado y obtener el fullpath donde se ejecutan los 
 ```
 <?php 
  if(exec('echo EXEC') == 'EXEC'){
